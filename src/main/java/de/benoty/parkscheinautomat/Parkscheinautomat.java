@@ -51,7 +51,7 @@ public class Parkscheinautomat
 
                 System.out.println( "Du hast " +  parkedHours + " Stunde(n) " + parkedMinutes + " Minute(n) und " + parkedSeconds + " Sekunden geparkt.\n");
 
-                if (isWeekend()) // if it is not Saturday or Sunday (weekend) then the payment procedure is started.
+                if (!isWeekend()) // if it is not Saturday or Sunday (weekend) then the payment procedure is started.
                 {
                     if (parkingCostEuros > 0)
                     {
