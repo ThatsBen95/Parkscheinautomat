@@ -1,4 +1,4 @@
-package de.benoty.parkscheinautomat;
+package de.thatsben.parkscheinautomat;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
