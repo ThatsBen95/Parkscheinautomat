@@ -135,7 +135,7 @@ public class Parkscheinautomat
 
             System.out.println("Du hast " + paidMoney + "€ eingeworfen.\n");
 
-            // nicht genug geld
+            // not enough money
             if (paidMoney < priceToPay)
             {
                 priceToPay -= paidMoney;
@@ -143,7 +143,7 @@ public class Parkscheinautomat
                 continue;
             }
 
-            // zu viel Geld,
+            // too much money
             if (paidMoney > priceToPay)
             {
                 cashBack = paidMoney - priceToPay;
@@ -152,7 +152,7 @@ public class Parkscheinautomat
                 break;
             }
 
-            // passend bezahlt
+            // paid appropriately
             if (paidMoney == priceToPay)
             {
                 System.out.println("Du hast passend bezahlt.\n");
